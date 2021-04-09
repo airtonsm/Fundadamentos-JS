@@ -1,7 +1,33 @@
+public class Pessoa {
 
-    console.log('a = ', a)
-    var a = 2
-    console.log('a = ', a)
+    String nome;
 
-console.log('b =', b)
-let b = 2
+
+
+    public String getNome() {
+
+          return null;
+
+    }
+
+public void setNome(String nome) {
+
+          this.nome = nome;
+
+    }
+
+}
+
+
+
+
+public static void main(String[] args) {
+
+             Pessoa p = new Pessoa();
+
+             p.setNome("Javinha");
+
+             System.out.println(p.getNome().equals("Javinha"));
+
+}
+
